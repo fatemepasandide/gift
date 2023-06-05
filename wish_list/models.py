@@ -11,7 +11,7 @@ class WishList(models.Model):
     link = models.CharField(max_length=300)
     status = models.CharField(
         max_length=30,
-        choices=PurchaseStatusEnum,
+        choices=PurchaseStatusEnum.choices,
         default=PurchaseStatusEnum.NOT_PURCHASED
     )
 
