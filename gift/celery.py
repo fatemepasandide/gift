@@ -4,9 +4,9 @@ import os
 
 from celery import Celery
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'redismail.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gift.settings')
 
-app = Celery('redismail')
+app = Celery('gift')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
 app.conf.enable_utc = False
