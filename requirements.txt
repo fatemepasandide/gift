@@ -11,4 +11,4 @@ pymongo
 pytz
 sqlparse
 
-celery
+celery~=5.2.7
