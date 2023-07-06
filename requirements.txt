@@ -2,6 +2,10 @@ amqp
 asgiref
 billiard
 celery
+click
+click-didyoumean
+click-plugins
+click-repl
 Django
 djangorestframework
 drf-flex-fields
@@ -9,3 +13,6 @@ psycopg2
 python-decouple
 pytz
 redis
+kombu
+sqlparse
+vine
