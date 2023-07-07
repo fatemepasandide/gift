@@ -12,7 +12,7 @@ djongo
 dnspython
 drf-flex-fields
 environ
-importlib-metadata
+importlib-metadata==4.8.3
 kombu
 psycopg2
 python-decouple
